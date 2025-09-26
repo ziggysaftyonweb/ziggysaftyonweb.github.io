@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ziggy Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Ziggy Logo" width="100">
+    <h1>Ziggy Dashboard</h1>
+    <nav>
+      <button onclick="loadModule('jaser')">Jaser v1</button>
+      <button onclick="loadModule('spawn')">Spawn</button>
+      <button onclick="loadModule('train')">Train</button>
+      <button onclick="loadModule('verify')">Verify</button>
+    </nav>
+  </header>
+  <main id="moduleView">
+    <p>Select a module to begin.</p>
+  </main>
+  <script src="dashboard.js"></script>
+</body>
+</html>
