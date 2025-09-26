@@ -1,0 +1,5 @@
+body { font-family: sans-serif; background: #111; color: #0ff; padding: 2em; }
+header { text-align: center; margin-bottom: 2em; }
+nav button { margin: 0.5em; padding: 1em; background: #0ff; border: none; cursor: pointer; }
+#moduleView { background: #222; padding: 1em; border-radius: 6px; }
+img { border-radius: 12px; margin-bottom: 1em; }
